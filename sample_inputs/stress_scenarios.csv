@@ -1,0 +1,21 @@
+scenario,asset_class,shock
+Equity sell-off,Equity,-0.18
+Equity sell-off,Rates,0.05
+Equity sell-off,Credit,-0.08
+Equity sell-off,Commodity,-0.04
+Equity sell-off,FX,0.04
+Rates +150bp,Equity,-0.07
+Rates +150bp,Rates,-0.12
+Rates +150bp,Credit,-0.06
+Rates +150bp,Commodity,-0.03
+Rates +150bp,FX,0.05
+Credit widening,Equity,-0.1
+Credit widening,Rates,0.02
+Credit widening,Credit,-0.13
+Credit widening,Commodity,-0.02
+Credit widening,FX,0.03
+USD reversal,Equity,0.03
+USD reversal,Rates,0.01
+USD reversal,Credit,0.02
+USD reversal,Commodity,0.08
+USD reversal,FX,-0.1

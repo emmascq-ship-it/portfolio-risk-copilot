@@ -1,0 +1,8 @@
+ticker,asset_class,quantity,price,currency,limit_weight
+SPY,Equity,1800,570.0,USD,0.35
+QQQ,Equity,1250,490.0,USD,0.3
+EEM,Equity,4200,45.0,USD,0.15
+TLT,Rates,3200,94.0,USD,0.2
+HYG,Credit,3600,80.0,USD,0.2
+GLD,Commodity,1100,240.0,USD,0.15
+UUP,FX,2500,29.0,USD,0.1
