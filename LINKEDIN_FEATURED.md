@@ -1,5 +1,9 @@
 # LinkedIn Featured
 
+**Featured link:** https://emma-portfolio-risk-copilot.streamlit.app/
+
+**Source code:** https://github.com/emmascq-ship-it/portfolio-risk-copilot
+
 **Title:** Portfolio Risk Copilot | Python Risk Analytics & AI Workflow
 
 **Description:** Explore an interactive multi-asset risk workspace built in Python and Streamlit. Analyze VaR, Expected Shortfall, factor exposures, concentration, stress losses and rolling VaR backtests. Automated controls feed an evidence-grounded risk brief for human review. Uses synthetic demo data; optional LLM narration is available in the code, while the public demo uses reproducible deterministic commentary.

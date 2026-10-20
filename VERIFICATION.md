@@ -16,6 +16,14 @@ The authenticated GitHub connector published the recovered source after command-
 - At 390 × 844, cards stack, tabs scroll, and document width equals viewport width (390 px). This is browser emulation, not a physical-device test.
 - Prepared `LINKEDIN_FEATURED.md` and a 1200 × 627 cover in `assets/linkedin-featured.png`.
 
-## Pending
+## Public deployment verified
 
-Streamlit Community Cloud requires the user to approve its GitHub OAuth permissions before deployment. No public app URL or live-app verification is claimed. Deploy branch `main`, entry point `app.py`, with no API key, after authorization. Then repeat desktop/mobile checks against the public URL and test custom CSV uploads and report export.
+Live demo: https://emma-portfolio-risk-copilot.streamlit.app/
+
+- Deployed the existing `app.py` from GitHub `main` through Streamlit Community Cloud, with no API key added.
+- Opened the application in a separate browser session without signing in; demo metrics and all eight controls rendered.
+- Verified the live backtest shows 269 observations, 18 exceptions, and a 6.7% exception rate.
+- Downloaded `portfolio_risk_brief.html` from the live governance view.
+- Checked the public app at 390 × 844: cards stack and tabs scroll; the outer document width is 390 px. Browser emulation was used, not a physical phone.
+- Saved live desktop and mobile screenshots in the ignored `output/` directory.
+- Custom-input mode was exercised, but automated CSV attachment was blocked by the Chrome extension's file-URL permission. End-to-end custom-upload verification remains uncompleted; this limitation is separate from the passing calculation tests.

@@ -1,5 +1,9 @@
 # Portfolio Risk Copilot
 
+[Launch the public demo](https://emma-portfolio-risk-copilot.streamlit.app/) · [LinkedIn Featured assets](LINKEDIN_FEATURED.md)
+
+![Portfolio Risk Copilot preview](assets/linkedin-featured.png)
+
 An auditable multi-asset risk workflow built for portfolio-risk, market-risk, treasury, and quantitative-finance interviews.
 
 The project separates three responsibilities:
@@ -97,4 +101,3 @@ One row per scenario and asset class with a decimal return shock.
 ## Scope boundary
 
 This is a portfolio project, not a production risk system. V2 adds an out-of-sample historical VaR backtest and transparent proxy-factor regression, but it does not model derivatives, nonlinear Greeks, liquidity horizons, counterparty exposure, or regulatory capital. Synthetic demo data must not be represented as live market data.
-

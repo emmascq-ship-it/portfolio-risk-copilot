@@ -1,5 +1,11 @@
 # Deployment
 
+## Live deployment
+
+Public demo: https://emma-portfolio-risk-copilot.streamlit.app/
+
+Hosted on Streamlit Community Cloud from `emmascq-ship-it/portfolio-risk-copilot`, branch `main`, entry point `app.py`. No API key was added. The default narrator is deterministic.
+
 ## Recommended public demo: Streamlit Community Cloud
 
 1. Create a GitHub repository and push the project files.
