@@ -1,10 +1,12 @@
 """Render the LinkedIn cover using metrics from the bundled synthetic demo."""
-import json
+import sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-m = json.loads((ROOT / 'output/risk_metrics.json').read_text())
+sys.path.insert(0, str(ROOT))
+from risk_engine import calculate_risk, load_inputs
+m = calculate_risk(*load_inputs(ROOT / 'sample_inputs')).metrics
 im = Image.new('RGB', (1200, 627), '#102A43')
 d = ImageDraw.Draw(im)
 def font(size, bold=False):
